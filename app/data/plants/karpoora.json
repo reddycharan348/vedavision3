@@ -96,7 +96,7 @@
     "toxicity_notes": "GRAS Status: Classified as a safe medicinal herb ONLY in recommended therapeutic dosages. Overdose or ingestion of synthetic camphor is highly toxic and can be fatal."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95

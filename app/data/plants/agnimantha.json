@@ -96,7 +96,7 @@
     "toxicity_notes": "GRAS Status: While not formally designated as 'Generally Recognized As Safe' (GRAS) by regulatory bodies like the FDA, Agnimantha has a long history of safe use in traditional Ayurvedic medicine when administered appropriately and within recommended dosages. WHO monographs emphasize safety based on traditional use and available toxicological data, which for Premna integrifolia, indicates a good safety profile at therapeutic doses."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95

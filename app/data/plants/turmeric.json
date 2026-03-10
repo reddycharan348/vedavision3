@@ -94,7 +94,7 @@
     "toxicity_notes": "GRAS Status: Turmeric/Curcuma longa is officially recognized as GRAS (Generally Recognized As Safe) by the US FDA as a food additive and dietary supplement. It is listed in the Ayurvedic Pharmacopoeia of India (API), the Indian Pharmacopoeia, and acknowledged by WHO. It has an impeccable safety record spanning thousands of years of dietary and medicinal use."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95

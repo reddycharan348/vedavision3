@@ -94,7 +94,7 @@
     "toxicity_notes": "GRAS Status: The inner leaf gel of Aloe vera is generally recognized as safe (GRAS) by regulatory bodies for consumption. However, the whole leaf extract containing significant levels of aloin (anthraquinone glycosides) is not considered GRAS for food use by the FDA due to potential carcinogenicity observed in animal studies at high doses. WHO monographs advise against long-term use of the latex due to potential for electrolyte imbalance and colon damage."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95

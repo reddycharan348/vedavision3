@@ -95,7 +95,7 @@
     "toxicity_notes": "GRAS Status: Tulsi has an exceptionally well-documented history of safe traditional use as both a food/tea and a medicine. It is listed in the API and extensively recognized by the Ministry of AYUSH. WHO acknowledges its traditional safety profile. No significant adverse effects have been reported at recommended therapeutic doses in clinical studies or traditional practice."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95

@@ -96,7 +96,7 @@
     "toxicity_notes": "GRAS Status: Classified as a safe medicinal oil and herb with a history of use spanning millennia across various global traditional systems (Ayurveda, Unani, and TCM) without documented toxicity in oil form."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95

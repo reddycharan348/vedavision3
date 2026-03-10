@@ -97,7 +97,7 @@
     "toxicity_notes": "GRAS Status: While not formally designated as GRAS (Generally Recognized As Safe) by regulatory bodies like the FDA for all uses, Terminalia arjuna has a long history of safe traditional use in India within prescribed dosages. The Ayurvedic Pharmacopoeia of India and WHO monographs acknowledge its traditional use and safety profile when used appropriately under expert guidance."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95

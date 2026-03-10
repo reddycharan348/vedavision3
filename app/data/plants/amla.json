@@ -101,7 +101,7 @@
     "toxicity_notes": "GRAS Status: Amalaki is generally recognized as safe (GRAS) for long-term consumption within recommended dosages, particularly as a dietary supplement and food ingredient in traditional Indian diets."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95

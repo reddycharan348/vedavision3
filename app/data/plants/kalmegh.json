@@ -95,7 +95,7 @@
     "toxicity_notes": "GRAS Status: Andrographis paniculata is not generally recognized as safe (GRAS) by the FDA for food use. However, it is widely accepted and utilized as a traditional medicine, with WHO monographs providing guidelines for its medicinal use and safety."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95

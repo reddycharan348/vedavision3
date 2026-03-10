@@ -95,7 +95,7 @@
     "toxicity_notes": "GRAS Status: Shyonaka has a long history of safe use in traditional Ayurvedic medicine as part of the Dashamoola group. It is listed in the API and recognized by the Ministry of AYUSH. Toxicological studies on Oroxylum indicum extracts generally indicate a safe profile at therapeutic doses."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95

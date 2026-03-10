@@ -96,7 +96,7 @@
     "toxicity_notes": "GRAS Status: Leaves and flowers are traditionally consumed as food (vegetable) in India and Thailand, confirming its 'Generally Recognized As Safe' status at dietary and therapeutic levels."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95

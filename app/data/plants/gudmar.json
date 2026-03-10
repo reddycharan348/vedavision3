@@ -96,7 +96,7 @@
     "toxicity_notes": "GRAS Status: Classified as a safe medicinal herb. It has been used for over 2000 years in Ayurveda without record of chronic toxicity at recommended doses."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95

@@ -89,7 +89,7 @@
     "toxicity_notes": "**Contraindications:** Maricha is contraindicated in conditions of excessive Pitta aggravation, such as severe hyperacidity (Amlapitta), peptic ulcers, gastritis, inflammatory bowel disease, and bleeding disorders due to its Ushna Virya (hot potency) and Tikshna Guna (sharp quality)."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95

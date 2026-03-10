@@ -95,7 +95,7 @@
     "toxicity_notes": "GRAS Status: Punarnava has a millennia-long history of safe use in traditional Indian medicine when consumed within therapeutic dosages. It is listed in the API and recognized by the Ministry of AYUSH as a safe Ayurvedic drug. WHO monographs acknowledge its traditional safety profile."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95

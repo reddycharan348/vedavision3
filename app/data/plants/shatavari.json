@@ -95,7 +95,7 @@
     "toxicity_notes": "GRAS Status: Shatavari has an exceptionally long and robust history of safe use in Ayurveda, including during pregnancy and lactation (where it is traditionally considered Garbhasthapana—supporting pregnancy). It is listed in the API and recognized by the Ministry of AYUSH. No significant adverse effects have been reported in traditional or modern clinical use at therapeutic doses."
   },
   "metadata": {
-    "source_system": "Agastya AI Herbal Database",
+    "source_system": "API & WHO Monographs",
     "verification_status": "verified",
     "last_updated": "2026-03-10",
     "confidence_score": 0.95
