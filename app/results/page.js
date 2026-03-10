@@ -465,20 +465,20 @@ function ResultsContent() {
                 {/* Safety & Contraindications */}
                 <motion.div {...fadeUp} transition={{ delay: 0.35 }} className="result-card card-safety">
                     <div className="card-header">
-                        <AlertTriangle size={20} className="card-icon icon-warn" />
-                        <h2>{t('resSafety')}</h2>
+                        <AlertTriangle size={20} className="card-icon icon-danger" />
+                        <h2 className="text-danger">{t('resSafety')}</h2>
                     </div>
                     {renderTextOrArray(safetyProfile)}
                     {contraindications.length > 0 && (
                         <ul className="warn-list">
-                            {contraindications.map((c, i) => <li key={i}>{c}</li>)}
+                            {contraindications.map((c, i) => <li key={i} className="text-danger-light">{c}</li>)}
                         </ul>
                     )}
                     {drugInteractions.length > 0 && (
                         <>
-                            <h3 className="sub-heading">{t('resDrugInteractions')}</h3>
+                            <h3 className="sub-heading text-danger">{t('resDrugInteractions')}</h3>
                             <ul className="warn-list">
-                                {drugInteractions.map((d, i) => <li key={i}>{d}</li>)}
+                                {drugInteractions.map((d, i) => <li key={i} className="text-danger-light">{d}</li>)}
                             </ul>
                         </>
                     )}
@@ -672,12 +672,17 @@ function ResultsContent() {
                 .compound-chip:hover { background: rgba(167,139,250,0.15); }
 
                 /* Safety Card */
-                .card-safety { border-color: rgba(251,191,36,0.1); }
-                .card-safety::before { background: linear-gradient(90deg, transparent, rgba(251,191,36,0.3), transparent); }
+                .card-safety { border-color: rgba(239,68,68,0.2); background: radial-gradient(circle at top right, rgba(239,68,68,0.03), transparent 70%), rgba(10,15,10,0.6); }
+                .card-safety::before { background: linear-gradient(90deg, transparent, rgba(239,68,68,0.4), transparent); }
+                
+                .text-danger { color: #f87171 !important; }
+                .text-danger-light { color: #fca5a5 !important; font-weight: 500; }
+                .icon-danger { color: #ef4444; filter: drop-shadow(0 0 8px rgba(239,68,68,0.4)); }
+
                 .warn-list { list-style: none; padding: 0; margin: 1rem 0 0; display: flex; flex-direction: column; gap: 0.75rem; }
                 .warn-list li {
                     padding: 0.75rem 1rem; border-radius: 8px;
-                    background: rgba(251,191,36,0.04); border-left: 3px solid rgba(251,191,36,0.3);
+                    background: rgba(239,68,68,0.05); border-left: 3px solid rgba(239,68,68,0.5);
                     color: rgba(255,255,255,0.6); font-size: 0.9rem; line-height: 1.5;
                 }
 
