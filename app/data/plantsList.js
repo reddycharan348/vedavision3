@@ -1048,5 +1048,12 @@ export const featuredPlants = [
         "scientific": "Trachyspermum ammi (L.) Sprague",
         "desc": "Apiaceae",
         "image": "/images/plants/yavani.jpg"
+    },
+    {
+        "id": "money_plant",
+        "name": "Money Plant",
+        "scientific": "Epipremnum aureum",
+        "desc": "Araceae",
+        "image": "/images/plants/money_plant.jpg"
     }
 ];

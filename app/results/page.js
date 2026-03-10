@@ -18,22 +18,84 @@ function r(data, ...keys) {
 
 const renderTextOrArray = (data) => {
     if (!data) return null;
+
+    // Handle arrays
     if (Array.isArray(data)) {
         return (
             <ul className="points-list">
-                {data.map((pt, i) => <li key={i}>{pt}</li>)}
+                {data.map((pt, i) => {
+                    if (typeof pt === 'object' && pt !== null) {
+                        // Render object items (e.g., active compounds)
+                        return (
+                            <li key={i}>
+                                {Object.entries(pt).map(([k, v]) => (
+                                    <span key={k}><strong>{k}:</strong> {String(v)} </span>
+                                ))}
+                            </li>
+                        );
+                    }
+                    // Check if item has a "Label: Value" pattern
+                    const colonIdx = String(pt).indexOf(':');
+                    if (colonIdx > 0 && colonIdx < 60) {
+                        const label = String(pt).substring(0, colonIdx);
+                        const value = String(pt).substring(colonIdx + 1).trim();
+                        return <li key={i}><strong>{label}:</strong> {value}</li>;
+                    }
+                    return <li key={i}>{pt}</li>;
+                })}
             </ul>
         );
     }
-    if (typeof data === 'string' && data.split('. ').length > 2) {
-        const pts = data.split('. ').filter(Boolean).map(s => s.trim() + (s.endsWith('.') ? '' : '.'));
+
+    // Handle objects (like dosages or ayurvedic_properties)
+    if (typeof data === 'object' && data !== null) {
         return (
             <ul className="points-list">
-                {pts.map((pt, i) => <li key={i}>{pt}</li>)}
+                {Object.entries(data).map(([key, value], i) => (
+                    <li key={i}><strong>{key}:</strong> {typeof value === 'object' ? JSON.stringify(value) : String(value)}</li>
+                ))}
             </ul>
         );
     }
-    return <p className="card-text">{data}</p>;
+
+    // Handle strings — try to split into bullet points
+    if (typeof data === 'string') {
+        // Split on || separator (from Google Translate joined arrays)
+        if (data.includes(' || ')) {
+            const pts = data.split(' || ').map(s => s.trim()).filter(Boolean);
+            return (
+                <ul className="points-list">
+                    {pts.map((pt, i) => {
+                        const colonIdx = pt.indexOf(':');
+                        if (colonIdx > 0 && colonIdx < 60) {
+                            return <li key={i}><strong>{pt.substring(0, colonIdx)}:</strong> {pt.substring(colonIdx + 1).trim()}</li>;
+                        }
+                        return <li key={i}>{pt}</li>;
+                    })}
+                </ul>
+            );
+        }
+
+        // Split on '. ' for multi-sentence text (3+ sentences)
+        const sentences = data.split(/(?<=\.)\s+/).filter(s => s.trim().length > 5);
+        if (sentences.length > 2) {
+            return (
+                <ul className="points-list">
+                    {sentences.map((pt, i) => {
+                        const colonIdx = pt.indexOf(':');
+                        if (colonIdx > 0 && colonIdx < 60) {
+                            return <li key={i}><strong>{pt.substring(0, colonIdx)}:</strong> {pt.substring(colonIdx + 1).trim()}</li>;
+                        }
+                        return <li key={i}>{pt.trim()}</li>;
+                    })}
+                </ul>
+            );
+        }
+
+        return <p className="card-text">{data}</p>;
+    }
+
+    return <p className="card-text">{String(data)}</p>;
 };
 
 function ResultsContent() {

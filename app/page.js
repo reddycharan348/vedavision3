@@ -407,32 +407,17 @@ export default function Home() {
                                         <Camera size={20} className="text-gold" />
                                         <h2 className="card-title">{t("neuralLens")}</h2>
                                     </div>
-                                    {isCameraOpen && (
-                                        <button onClick={stopCamera} className="camera-close-btn" aria-label="Close Camera">
-                                            <X size={20} className="text-muted" />
-                                        </button>
-                                    )}
                                 </div>
                                 <div
-                                    className={`scanner-dropzone ${isDragging ? "dragging" : ""} ${preview || isCameraOpen ? "has-preview" : ""}`}
+                                    className={`scanner-dropzone ${isDragging ? "dragging" : ""} ${preview ? "has-preview" : ""}`}
                                     onDragOver={(e) => { e.preventDefault(); setIsDragging(true); }}
                                     onDragLeave={() => setIsDragging(false)}
                                     onDrop={(e) => { e.preventDefault(); setIsDragging(false); if (e.dataTransfer.files?.[0]) processFile(e.dataTransfer.files[0]); }}
-                                    onClick={() => !preview && !isCameraOpen && fileInputRef.current?.click()}
+                                    onClick={() => !preview && fileInputRef.current?.click()}
                                 >
                                     <input type="file" ref={fileInputRef} onChange={(e) => e.target.files?.[0] && processFile(e.target.files[0])} accept="image/*" style={{ display: "none" }} />
 
-                                    {isCameraOpen ? (
-                                        <div className="camera-view">
-                                            <video ref={videoRef} autoPlay playsInline muted className="camera-video" />
-                                            <button
-                                                onClick={(e) => { e.stopPropagation(); capturePhoto(); }}
-                                                className="camera-capture-btn"
-                                                aria-label="Take Photo"
-                                            />
-                                            <canvas ref={canvasRef} style={{ display: 'none' }} />
-                                        </div>
-                                    ) : preview ? (
+                                    {preview ? (
                                         <img src={preview} alt="Preview" className="preview-img" />
                                     ) : (
                                         <div className="empty-state">
@@ -648,6 +633,30 @@ export default function Home() {
                 </section>
             </main>
 
+            {/* Fullscreen Camera Overlay */}
+            {isCameraOpen && (
+                <div className="camera-fullscreen-overlay">
+                    <div className="camera-overlay-header">
+                        <div className="camera-overlay-title">
+                            <Camera size={18} /> {t("neuralLens")}
+                        </div>
+                        <button onClick={stopCamera} className="camera-close-btn" aria-label="Close Camera">
+                            <X size={22} />
+                        </button>
+                    </div>
+                    <video ref={videoRef} autoPlay playsInline muted className="camera-video-fullscreen" />
+                    <canvas ref={canvasRef} style={{ display: 'none' }} />
+                    <p className="camera-hint">{t("clickOrDrag")}</p>
+                    <div className="camera-bottom-bar">
+                        <button
+                            onClick={capturePhoto}
+                            className="camera-capture-btn"
+                            aria-label="Take Photo"
+                        />
+                    </div>
+                </div>
+            )}
+
             {/* Mobile Bottom Navigation Bar */}
             <div className="mobile-bottom-nav">
                 <button className={`mobile-nav-item ${activeSection === "verify" ? "active" : ""}`} onClick={() => scrollTo("verify")}>
@@ -811,13 +820,18 @@ export default function Home() {
                 .error-text { background: rgba(239,68,68,0.1); color: #f87171; padding: 12px; border-radius: 8px; font-size: 0.9rem; text-align: center; border: 1px solid rgba(239,68,68,0.2); }
                 .error-alert { display: flex; align-items: center; justify-content: center; gap: 8px; background: rgba(239,68,68,0.1); color: #f87171; padding: 12px; border-radius: 8px; font-size: 0.95rem; text-align: center; border: 1px solid rgba(239,68,68,0.2); margin-top: 1rem; width: 100%; max-width: 400px; margin-left: auto; margin-right: auto; }
 
-                /* Camera Setup */
-                .camera-close-btn { background: transparent; border: none; padding: 8px; border-radius: 50%; cursor: pointer; transition: 0.3s; }
-                .camera-close-btn:hover { background: rgba(255,255,255,0.1); }
-                .camera-view { position: relative; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #000; }
-                .camera-video { width: 100%; height: 100%; object-fit: cover; }
-                .camera-capture-btn { position: absolute; bottom: 16px; width: 64px; height: 64px; background: #fff; border-radius: 50%; border: 4px solid #ccc; box-shadow: 0 4px 12px rgba(0,0,0,0.3); cursor: pointer; transition: 0.3s; }
-                .camera-capture-btn:hover { transform: scale(1.05); border-color: #eee; }
+                /* Camera Fullscreen Overlay */
+                .camera-fullscreen-overlay { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 99999; background: #000; display: flex; flex-direction: column; }
+                .camera-overlay-header { position: absolute; top: 0; left: 0; right: 0; z-index: 10; display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; background: linear-gradient(to bottom, rgba(0,0,0,0.7), transparent); }
+                .camera-overlay-title { color: #fff; font-size: 1.1rem; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+                .camera-close-btn { background: rgba(255,255,255,0.15); border: none; padding: 10px; border-radius: 50%; cursor: pointer; transition: 0.3s; color: #fff; backdrop-filter: blur(8px); }
+                .camera-close-btn:hover { background: rgba(255,255,255,0.25); }
+                .camera-video-fullscreen { flex: 1; width: 100%; height: 100%; object-fit: cover; }
+                .camera-bottom-bar { position: absolute; bottom: 0; left: 0; right: 0; z-index: 10; display: flex; justify-content: center; align-items: center; padding: 32px 20px 48px; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); }
+                .camera-capture-btn { width: 72px; height: 72px; background: #fff; border-radius: 50%; border: 5px solid rgba(255,255,255,0.4); box-shadow: 0 4px 20px rgba(0,0,0,0.5); cursor: pointer; transition: 0.2s; }
+                .camera-capture-btn:hover { transform: scale(1.08); }
+                .camera-capture-btn:active { transform: scale(0.95); background: #ddd; }
+                .camera-hint { position: absolute; bottom: 120px; left: 0; right: 0; text-align: center; color: rgba(255,255,255,0.7); font-size: 0.85rem; }
                 .btn-camera { padding: 10px 16px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: #fff; font-size: 0.9rem; display: flex; align-items: center; gap: 8px; cursor: pointer; transition: 0.3s; margin: 0 auto; }
                 .btn-camera:hover { background: rgba(255,255,255,0.1); }
 
