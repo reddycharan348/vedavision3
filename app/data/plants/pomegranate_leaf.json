@@ -1,0 +1,90 @@
+{
+  "plant_id": "pomegranate_leaf",
+  "summary": {
+    "name": "Dadima Patra (Pomegranate Leaf)",
+    "scientific_name": "Punica granatum",
+    "family": "Lythraceae",
+    "common_names": [
+      "Pomegranate",
+      "Dadima"
+    ],
+    "key_uses": [
+      "Digestion",
+      "Oral Health",
+      "Skin Conditions"
+    ],
+    "dosha_effect": {
+      "balances": [
+        "Pitta",
+        "Kapha"
+      ],
+      "may_aggravate": [
+        "Vata (if used in excess)"
+      ]
+    },
+    "main_preparations": [
+      "Decoction",
+      "Juice",
+      "Paste"
+    ],
+    "safety_level": "Safe",
+    "quick_rating": {
+      "traditional_strength": 9,
+      "research_support": 8,
+      "safety": 9,
+      "availability": 10
+    }
+  },
+  "details": {
+    "plant_profile": {
+      "history": "Pomegranate leaves have been utilized in Ayurveda for centuries as an astringent and cooling herb.",
+      "physical_characteristics": "Small, glossy, lance-shaped opposite leaves growing on a thorny shrub or small tree.",
+      "distribution": "Native to Iran and northern India, cultivated widely throughout the Mediterranean and tropical regions."
+    },
+    "ayurvedic_properties": {
+      "rasa": ["Kashaya", "Tikta"],
+      "guna": ["Laghu", "Ruksha"],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "dosha_modulation": "Pacifies Pitta and Kapha."
+    },
+    "therapeutic_actions": ["Astringent", "Anti-inflammatory", "Antibacterial", "Hemostatic"],
+    "medicinal_uses": {
+      "use_1": "Decoction is used as a mouthwash for oral ulcers and throat infections.",
+      "use_2": "Paste is applied to skin eruptions and to halt minor bleeding.",
+      "use_3": "Juice or extract helps relieve digestive disorders like diarrhea and dysentery."
+    },
+    "chemical_profile": {
+      "key_compounds": ["Punicalagin", "Ellagic acid", "Tannins"],
+      "phytochemicals": ["Flavonoids", "Polyphenols"],
+      "nutritional_components": ["Vitamin C", "Antioxidants"]
+    },
+    "standardization": {
+      "api_reference": "Ayurvedic Pharmacopoeia of India (Dadima Patra)",
+      "quality_markers": ["Tannin content", "Ellagic acid concentration"]
+    }
+  },
+  "usage": {
+    "preparation_methods": {
+      "method_1": "Boil 10-15 leaves in water to make a medicinal decoction.",
+      "method_2": "Crush fresh leaves into a fine paste for external application."
+    },
+    "dosage": {
+      "adults": "10-20ml of fresh leaf juice or 20-30ml of decoction.",
+      "children": "5-10ml under guidance.",
+      "elderly": "Standard adult dose."
+    }
+  },
+  "safety": {
+    "contraindications": ["None in prescribed dosage"],
+    "side_effects": ["Excessive consumption may cause constipation due to high tannins"],
+    "drug_interactions": ["May interact with certain metabolic medications"],
+    "toxicity_notes": "Safe for external and internal use."
+  },
+  "metadata": {
+    "source_system": "Ayurvedic Materia Medica",
+    "verification_status": "verified",
+    "last_updated": "2026-03-27",
+    "confidence_score": 0.95
+  }
+}

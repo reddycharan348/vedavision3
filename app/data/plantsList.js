@@ -1055,5 +1055,12 @@ export const featuredPlants = [
         "scientific": "Epipremnum aureum",
         "desc": "Araceae",
         "image": "/images/plants/Money Plant.jpg.jpeg"
+    },
+    {
+        "id": "pomegranate_leaf",
+        "name": "Dadima Patra (Pomegranate Leaf)",
+        "scientific": "Punica granatum",
+        "desc": "Lythraceae",
+        "image": "/images/plants/pomegranate_leaf.jpg"
     }
 ];
