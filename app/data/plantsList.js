@@ -39,154 +39,154 @@ export const featuredPlants = [
         "name": "Amalaki",
         "scientific": "Emblica officinalis Gaertn. (Syn. Phyllanthus emblica L.)",
         "desc": "Phyllanthaceae",
-        "image": "/images/plants/amla.jpg"
+        "image": "/images/plants/Amla.jpg.jpeg"
     },
     {
         "id": "apamarga",
         "name": "Apamarga",
         "scientific": "Achyranthes aspera L.",
         "desc": "Amaranthaceae",
-        "image": "/images/plants/apamarga.jpg"
+        "image": "/images/plants/Apamarga.jpg.jpeg"
     },
     {
         "id": "aragvadha",
         "name": "Aragvadha",
         "scientific": "Cassia fistula L.",
         "desc": "Fabaceae",
-        "image": "/images/plants/aragvadha.jpg"
+        "image": "/images/plants/Aragvadha.jpg.jpeg"
     },
     {
         "id": "arjuna",
         "name": "Arjuna",
         "scientific": "Terminalia arjuna (Roxb. ex DC.) Wight & Arn.",
         "desc": "Combretaceae",
-        "image": "/images/plants/arjuna.jpg"
+        "image": "/images/plants/Arjuna.jpg.jpeg"
     },
     {
         "id": "arka",
         "name": "Arka",
         "scientific": "Calotropis procera (Aiton) Dryand.",
         "desc": "Apocynaceae",
-        "image": "/images/plants/arka.jpg"
+        "image": "/images/plants/Arka.webp"
     },
     {
         "id": "ashmantaka",
         "name": "Ashmantaka",
         "scientific": "Bauhinia purpurea L.",
         "desc": "Fabaceae",
-        "image": "/images/plants/ashmantaka.jpg"
+        "image": "/images/plants/Ashmantaka.jpg.jpeg"
     },
     {
         "id": "ashoka",
         "name": "Ashoka",
         "scientific": "Saraca asoca (Roxb.) de Wilde",
         "desc": "Fabaceae",
-        "image": "/images/plants/ashoka.jpg"
+        "image": "/images/plants/Ashoka.jpg.jpeg"
     },
     {
         "id": "ashwagandha",
         "name": "Ashwagandha",
         "scientific": "Withania somnifera",
         "desc": "Solanaceae",
-        "image": "/images/plants/ashwagandha.jpg"
+        "image": "/images/plants/Ashwagandha.jpg.jpeg"
     },
     {
         "id": "atibala",
         "name": "Atibala",
         "scientific": "Abutilon indicum (L.) Sweet",
         "desc": "Malvaceae",
-        "image": "/images/plants/atibala.jpg"
+        "image": "/images/plants/Atibala.png"
     },
     {
         "id": "ativisha",
         "name": "Ativisha",
         "scientific": "Aconitum heterophyllum Wall.",
         "desc": "Ranunculaceae",
-        "image": "/images/plants/ativisha.jpg"
+        "image": "/images/plants/Ativisha.png"
     },
     {
         "id": "bakuchi",
         "name": "Bakuchi",
         "scientific": "Psoralea corylifolia L.",
         "desc": "Fabaceae",
-        "image": "/images/plants/bakuchi.jpg"
+        "image": "/images/plants/Bakuchi.webp"
     },
     {
         "id": "bakula",
         "name": "Bakula",
         "scientific": "Mimusops elengi L.",
         "desc": "Sapotaceae",
-        "image": "/images/plants/bakula.jpg"
+        "image": "/images/plants/Bakula.png"
     },
     {
         "id": "bala",
         "name": "Bala",
         "scientific": "Sida cordifolia L.",
         "desc": "Malvaceae",
-        "image": "/images/plants/bala.jpg"
+        "image": "/images/plants/bala.png"
     },
     {
         "id": "balaka",
         "name": "Balaka",
         "scientific": "Sida cordifolia (Honed)",
         "desc": "Malvaceae",
-        "image": "/images/plants/balaka.jpg"
+        "image": "/images/plants/Balaka.jpg.jpeg"
     },
     {
         "id": "bhringraj",
         "name": "Bhringraj",
         "scientific": "Eclipta alba (L.) L.",
         "desc": "Asteraceae",
-        "image": "/images/plants/bhringraj.jpg"
+        "image": "/images/plants/Bhringraj.jpg.jpeg"
     },
     {
         "id": "bhumyamalaki",
         "name": "Bhumyamalaki",
         "scientific": "Phyllanthus niruri",
         "desc": "Phyllanthaceae",
-        "image": "/images/plants/bhumyamalaki.jpg"
+        "image": "/images/plants/Bhumyamalaki.jpg.jpeg"
     },
     {
         "id": "bibhitaki",
         "name": "Bibhitaki",
         "scientific": "Terminalia bellirica (Gaertn.) Roxb.",
         "desc": "Combretaceae",
-        "image": "/images/plants/bibhitaki.jpg"
+        "image": "/images/plants/Bibhitaki.webp"
     },
     {
         "id": "bijaka",
         "name": "Bijaka",
         "scientific": "Pterocarpus marsupium (Honed)",
         "desc": "Fabaceae",
-        "image": "/images/plants/bijaka.jpg"
+        "image": "/images/plants/bijaka.jpg.jpeg"
     },
     {
         "id": "bilva",
         "name": "Bilva",
         "scientific": "Aegle marmelos (L.) Corr.",
         "desc": "Rutaceae",
-        "image": "/images/plants/bilva.jpg"
+        "image": "/images/plants/Bilva.jpg.jpeg"
     },
     {
         "id": "brahmi",
         "name": "Brahmi",
         "scientific": "Bacopa monnieri (L.) Wettst.",
         "desc": "Plantaginaceae",
-        "image": "/images/plants/brahmi.jpg"
+        "image": "/images/plants/Brahmi.jpg.jpeg"
     },
     {
         "id": "bruhati",
         "name": "Bruhati",
         "scientific": "Solanum indicum L.",
         "desc": "Solanaceae",
-        "image": "/images/plants/bruhati.jpg"
+        "image": "/images/plants/Bruhati.webp"
     },
     {
         "id": "chandana",
         "name": "Chandana",
         "scientific": "Santalum album L.",
         "desc": "Santalaceae",
-        "image": "/images/plants/chandana.jpg"
+        "image": "/images/plants/Chandana.jpg.jpeg"
     },
     {
         "id": "chandana_oil",
@@ -200,84 +200,84 @@ export const featuredPlants = [
         "name": "Chavya",
         "scientific": "Piper chaba Hunter",
         "desc": "Piperaceae",
-        "image": "/images/plants/chavya.jpg"
+        "image": "/images/plants/Chavya.jpg.jpeg"
     },
     {
         "id": "chitrak",
         "name": "Chitrak",
         "scientific": "Plumbago zeylanica L.",
         "desc": "Plumbaginaceae",
-        "image": "/images/plants/chitrak.jpg"
+        "image": "/images/plants/chitrak.jpg.jpeg"
     },
     {
         "id": "danti",
         "name": "Danti",
         "scientific": "Baliospermum montanum (Willd.) Müll.Arg.",
         "desc": "Euphorbiaceae",
-        "image": "/images/plants/danti.jpg"
+        "image": "/images/plants/Danti.png"
     },
     {
         "id": "devadaru",
         "name": "Devadaru",
         "scientific": "Cedrus deodara (Roxb.) Loud.",
         "desc": "Pinaceae",
-        "image": "/images/plants/devadaru.jpg"
+        "image": "/images/plants/Devadaru.jpg.jpeg"
     },
     {
         "id": "dhanyaka",
         "name": "Dhanyaka",
         "scientific": "Coriandrum sativum L.",
         "desc": "Apiaceae",
-        "image": "/images/plants/dhanyaka.jpg"
+        "image": "/images/plants/Dhanyaka.png"
     },
     {
         "id": "dhattura",
         "name": "Dhattura",
         "scientific": "Datura metel L.",
         "desc": "Solanaceae",
-        "image": "/images/plants/dhattura.jpg"
+        "image": "/images/plants/Dhattura.png"
     },
     {
         "id": "dronapushpi",
         "name": "Dronapushpi",
         "scientific": "Leucas aspera (Willd.) Link",
         "desc": "Lamiaceae",
-        "image": "/images/plants/dronapushpi.jpg"
+        "image": "/images/plants/Dronapushpi.png"
     },
     {
         "id": "elaichi",
         "name": "Elaichi",
         "scientific": "Elettaria cardamomum Maton",
         "desc": "Zingiberaceae",
-        "image": "/images/plants/elaichi.jpg"
+        "image": "/images/plants/Elaichi.png"
     },
     {
         "id": "eranda",
         "name": "Eranda",
         "scientific": "Ricinus communis L.",
         "desc": "Euphorbiaceae",
-        "image": "/images/plants/eranda.jpg"
+        "image": "/images/plants/Eranda.png"
     },
     {
         "id": "gambhari",
         "name": "Gambhari",
         "scientific": "Gmelina arborea Roxb.",
         "desc": "Lamiaceae (formerly Verbenaceae)",
-        "image": "/images/plants/gambhari.jpg"
+        "image": "/images/plants/Gambhari.png"
     },
     {
         "id": "ginger",
         "name": "Shunthi",
         "scientific": "Zingiber officinale Roscoe",
         "desc": "Zingiberaceae",
-        "image": "/images/plants/ginger.jpg"
+        "image": "/images/plants/Ginger.png"
     },
     {
         "id": "gokshura",
         "name": "Gokshura",
         "scientific": "Tribulus terrestris",
         "desc": "Zygophyllaceae",
-        "image": "/images/plants/gokshura.jpg"
+        "image": "/images/plants/Gokshura.png"
     },
     {
         "id": "gopichandana",
@@ -291,98 +291,98 @@ export const featuredPlants = [
         "name": "Gudmar",
         "scientific": "Gymnema sylvestre (Retz.) R.Br. ex Sm.",
         "desc": "Apocynaceae",
-        "image": "/images/plants/gudmar.jpg"
+        "image": "/images/plants/Gudmar.png"
     },
     {
         "id": "guduchi",
         "name": "Guduchi",
         "scientific": "Tinospora cordifolia (Willd.) Miers ex Hook.f. & Thomson",
         "desc": "Menispermaceae",
-        "image": "/images/plants/guduchi.jpg"
+        "image": "/images/plants/Guduchi.png"
     },
     {
         "id": "guggulu",
         "name": "Guggulu",
         "scientific": "Commiphora wightii (Arn.) Bhandari",
         "desc": "Burseraceae",
-        "image": "/images/plants/guggulu.jpg"
+        "image": "/images/plants/Guggulu.png"
     },
     {
         "id": "gunja",
         "name": "Gunja",
         "scientific": "Abrus precatorius L.",
         "desc": "Fabaceae",
-        "image": "/images/plants/gunja.jpg"
+        "image": "/images/plants/Gunja.png"
     },
     {
         "id": "haritaki",
         "name": "Haritaki",
         "scientific": "Terminalia chebula Retz.",
         "desc": "Combretaceae",
-        "image": "/images/plants/haritaki.jpg"
+        "image": "/images/plants/Haritaki.png"
     },
     {
         "id": "hingu",
         "name": "Hingu",
         "scientific": "Ferula assa-foetida L.",
         "desc": "Apiaceae",
-        "image": "/images/plants/hingu.jpg"
+        "image": "/images/plants/Hingu.jpg.jpeg"
     },
     {
         "id": "indrayan",
         "name": "Indrayan",
         "scientific": "Citrullus colocynthis (L.) Schrad.",
         "desc": "Cucurbitaceae",
-        "image": "/images/plants/indrayan.jpg"
+        "image": "/images/plants/Indrayan.jpg.jpeg"
     },
     {
         "id": "jambu",
         "name": "Jambu",
         "scientific": "Syzygium cumini (L.) Skeels",
         "desc": "Myrtaceae",
-        "image": "/images/plants/jambu.jpg"
+        "image": "/images/plants/Jambu.jpg.jpeg"
     },
     {
         "id": "japa",
         "name": "Japa",
         "scientific": "Hibiscus rosa-sinensis L.",
         "desc": "Malvaceae",
-        "image": "/images/plants/japa.jpg"
+        "image": "/images/plants/japa.jpg.jpeg"
     },
     {
         "id": "jatamansi",
         "name": "Jatamansi",
         "scientific": "Nardostachys jatamansi DC.",
         "desc": "Valerianaceae",
-        "image": "/images/plants/jatamansi.jpg"
+        "image": "/images/plants/Jatamansi.jpg.jpeg"
     },
     {
         "id": "jeeraka",
         "name": "Jeeraka",
         "scientific": "Cuminum cyminum L.",
         "desc": "Apiaceae",
-        "image": "/images/plants/jeeraka.jpg"
+        "image": "/images/plants/Jeeraka.jpg.jpeg"
     },
     {
         "id": "jivaka",
         "name": "Jivaka",
         "scientific": "Malaxis acuminata (Honed)",
         "desc": "Orchidaceae",
-        "image": "/images/plants/jivaka.jpg"
+        "image": "/images/plants/Jivaka.png"
     },
     {
         "id": "jyotishmati",
         "name": "Jyotishmati",
         "scientific": "Celastrus paniculatus Willd.",
         "desc": "Celastraceae",
-        "image": "/images/plants/jyotishmati.jpg"
+        "image": "/images/plants/Jyotishmati.png"
     },
     {
         "id": "kadali_root",
         "name": "Kadali Root",
         "scientific": "Musa paradisiaca Root",
         "desc": "Musaceae",
-        "image": "/images/plants/kadali_root.jpg"
+        "image": "/images/plants/Kadali Root.png"
     },
     {
         "id": "kakarasingi",
@@ -396,7 +396,7 @@ export const featuredPlants = [
         "name": "Kakoli",
         "scientific": "Roscoea purpurea (Honed)",
         "desc": "Zingiberaceae",
-        "image": "/images/plants/kakoli.jpg"
+        "image": "/images/plants/Kakoli.png"
     },
     {
         "id": "kakolyadi",
@@ -410,35 +410,35 @@ export const featuredPlants = [
         "name": "Kalmegh",
         "scientific": "Andrographis paniculata (Burm. f.) Nees",
         "desc": "Acanthaceae",
-        "image": "/images/plants/kalmegh.jpg"
+        "image": "/images/plants/Kalmegh.webp"
     },
     {
         "id": "kantakari",
         "name": "Kantakari",
         "scientific": "Solanum xanthocarpum Schrad. & Wendl.",
         "desc": "Solanaceae",
-        "image": "/images/plants/kantakari.jpg"
+        "image": "/images/plants/Kantakari.jpg.jpeg"
     },
     {
         "id": "kapikacchu",
         "name": "Kapikacchu",
         "scientific": "Mucuna pruriens (L.) DC.",
         "desc": "Fabaceae",
-        "image": "/images/plants/kapikacchu.jpg"
+        "image": "/images/plants/Kapikacchu.jpg.jpeg"
     },
     {
         "id": "karanja",
         "name": "Karanja",
         "scientific": "Pongamia pinnata (L.) Pierre",
         "desc": "Fabaceae",
-        "image": "/images/plants/karanja.jpg"
+        "image": "/images/plants/Karanja.webp"
     },
     {
         "id": "karavellaka",
         "name": "Karavellaka",
         "scientific": "Momordica charantia L.",
         "desc": "Cucurbitaceae",
-        "image": "/images/plants/karavellaka.jpg"
+        "image": "/images/plants/Karavellaka.jpg.jpeg"
     },
     {
         "id": "karavira",
@@ -452,14 +452,14 @@ export const featuredPlants = [
         "name": "Karkatashringi",
         "scientific": "Pistacia chinensis (Honed)",
         "desc": "Anacardiaceae",
-        "image": "/images/plants/karkatashringi.jpg"
+        "image": "/images/plants/Karkatashringi.png"
     },
     {
         "id": "katphala",
         "name": "Katphala",
         "scientific": "Myrica esculenta Buch.-Ham. ex D. Don",
         "desc": "Myricaceae",
-        "image": "/images/plants/katphala.jpg"
+        "image": "/images/plants/Katphala.jpg.jpeg"
     },
     {
         "id": "katuki",
@@ -473,14 +473,14 @@ export const featuredPlants = [
         "name": "Khadira",
         "scientific": "Acacia catechu (L.f.) Willd.",
         "desc": "Fabaceae",
-        "image": "/images/plants/khadira.jpg"
+        "image": "/images/plants/Khadira.png"
     },
     {
         "id": "kiratatikta",
         "name": "Kiratatikta",
         "scientific": "Swertia chirayita (Roxb.) Buch.-Ham. ex C.B. Clarke",
         "desc": "Gentianaceae",
-        "image": "/images/plants/kiratatikta.jpg"
+        "image": "/images/plants/Kiratatikta.jpg.jpeg"
     },
     {
         "id": "kshirakakoli",
@@ -494,77 +494,77 @@ export const featuredPlants = [
         "name": "Kushmanda",
         "scientific": "Benincasa hispida (Thunb.) Cogn.",
         "desc": "Cucurbitaceae",
-        "image": "/images/plants/kushmanda.jpg"
+        "image": "/images/plants/Kushmanda.png"
     },
     {
         "id": "kutaja",
         "name": "Kutaja",
         "scientific": "Holarrhena antidysenterica (L.) Wall. ex A.DC.",
         "desc": "Apocynaceae",
-        "image": "/images/plants/kutaja.jpg"
+        "image": "/images/plants/Kutaja.png"
     },
     {
         "id": "lajjalu",
         "name": "Lajjalu",
         "scientific": "Mimosa pudica L.",
         "desc": "Fabaceae",
-        "image": "/images/plants/lajjalu.jpg"
+        "image": "/images/plants/Lajjalu.jpg.jpeg"
     },
     {
         "id": "langali",
         "name": "Langali",
         "scientific": "Gloriosa superba L.",
         "desc": "Colchicaceae",
-        "image": "/images/plants/langali.jpg"
+        "image": "/images/plants/Langali.jpg.jpeg"
     },
     {
         "id": "latakaranja",
         "name": "Latakaranja",
         "scientific": "Caesalpinia bonduc (L.) Roxb.",
         "desc": "Fabaceae",
-        "image": "/images/plants/latakaranja.jpg"
+        "image": "/images/plants/Latakaranja.png"
     },
     {
         "id": "latakasturi",
         "name": "Latakasturi",
         "scientific": "Abelmoschus moschatus (Honed)",
         "desc": "Malvaceae",
-        "image": "/images/plants/latakasturi.jpg"
+        "image": "/images/plants/Latakasturi.png"
     },
     {
         "id": "lavanga",
         "name": "Lavanga",
         "scientific": "Syzygium aromaticum L.",
         "desc": "Myrtaceae",
-        "image": "/images/plants/lavanga.jpg"
+        "image": "/images/plants/Lavanga.png"
     },
     {
         "id": "lodhra",
         "name": "Lodhra",
         "scientific": "Symplocos racemosa Roxb.",
         "desc": "Symplocaceae",
-        "image": "/images/plants/lodhra.jpg"
+        "image": "/images/plants/Lodhra.png"
     },
     {
         "id": "madana_phala",
         "name": "Madana Phala",
         "scientific": "Catunaregam spinosa (Thunb.) Tirveng.",
         "desc": "Rubiaceae",
-        "image": "/images/plants/madana_phala.jpg"
+        "image": "/images/plants/Madana Phala.png"
     },
     {
         "id": "makhana",
         "name": "Makhana",
         "scientific": "Euryale ferox Salisb.",
         "desc": "Nymphaeaceae",
-        "image": "/images/plants/makhana.jpg"
+        "image": "/images/plants/Makhana.jpg.jpeg"
     },
     {
         "id": "manjistha",
         "name": "Manjistha",
         "scientific": "Rubia cordifolia L.",
         "desc": "Rubiaceae",
-        "image": "/images/plants/manjistha.jpg"
+        "image": "/images/plants/Manjistha.png"
     },
     {
         "id": "maricha",
@@ -578,42 +578,42 @@ export const featuredPlants = [
         "name": "Marubaka",
         "scientific": "Origanum majorana (Honed)",
         "desc": "Lamiaceae",
-        "image": "/images/plants/marubaka.jpg"
+        "image": "/images/plants/Marubaka.png"
     },
     {
         "id": "methika",
         "name": "Methika",
         "scientific": "Trigonella foenum-graecum L.",
         "desc": "Fabaceae",
-        "image": "/images/plants/methika.jpg"
+        "image": "/images/plants/Methika.webp"
     },
     {
         "id": "mishreya",
         "name": "Mishreya",
         "scientific": "Foeniculum vulgare Mill.",
         "desc": "Apiaceae",
-        "image": "/images/plants/mishreya.jpg"
+        "image": "/images/plants/Mishreya.jpg.jpeg"
     },
     {
         "id": "musta",
         "name": "Musta",
         "scientific": "Cyperus rotundus L.",
         "desc": "Cyperaceae",
-        "image": "/images/plants/musta.jpg"
+        "image": "/images/plants/Musta.png"
     },
     {
         "id": "musta_root",
         "name": "Musta Root",
         "scientific": "Cyperus rotundus Root",
         "desc": "Cyperaceae",
-        "image": "/images/plants/musta_root.jpg"
+        "image": "/images/plants/Musta Root.png"
     },
     {
         "id": "mustoka",
         "name": "Mustoka",
         "scientific": "Cyperus species",
         "desc": "Cyperaceae",
-        "image": "/images/plants/mustoka.jpg"
+        "image": "/images/plants/Mustoka.jpg.jpeg"
     },
     {
         "id": "nagakeshara",
@@ -634,84 +634,84 @@ export const featuredPlants = [
         "name": "Nirgundi",
         "scientific": "Vitex negundo L.",
         "desc": "Lamiaceae",
-        "image": "/images/plants/nirgundi.jpg"
+        "image": "/images/plants/Nirgundi.jpg.jpeg"
     },
     {
         "id": "palasha",
         "name": "Palasha",
         "scientific": "Butea monosperma (Lam.) Taub.",
         "desc": "Fabaceae",
-        "image": "/images/plants/palasha.jpg"
+        "image": "/images/plants/Palasha.png"
     },
     {
         "id": "parpata",
         "name": "Parpata",
         "scientific": "Fumaria indica (Haussk.) Pugsley",
         "desc": "Fumariaceae",
-        "image": "/images/plants/parpata.jpg"
+        "image": "/images/plants/Parpata.jpg.jpeg"
     },
     {
         "id": "parushaka",
         "name": "Parushaka",
         "scientific": "Grewia asiatica (Honed)",
         "desc": "Malvaceae",
-        "image": "/images/plants/parushaka.jpg"
+        "image": "/images/plants/Parushaka.jpg.jpeg"
     },
     {
         "id": "pashanabheda",
         "name": "Pashanabheda",
         "scientific": "Bergenia ligulata (Wall.) Engl.",
         "desc": "Saxifragaceae",
-        "image": "/images/plants/pashanabheda.jpg"
+        "image": "/images/plants/Pashanabheda.jpg.jpeg"
     },
     {
         "id": "patala",
         "name": "Patala",
         "scientific": "Stereospermum suaveolens",
         "desc": "Bignoniaceae",
-        "image": "/images/plants/patala.jpg"
+        "image": "/images/plants/Patala.jpg.jpeg"
     },
     {
         "id": "patoladi",
         "name": "Patoladi",
         "scientific": "Traditional Grouping",
         "desc": "Mixed",
-        "image": "/images/plants/patoladi.jpg"
+        "image": "/images/plants/Patoladi.jpg.jpeg"
     },
     {
         "id": "pippali",
         "name": "Pippali",
         "scientific": "Piper longum",
         "desc": "Piperaceae",
-        "image": "/images/plants/pippali.jpg"
+        "image": "/images/plants/Pippali.jpg.jpeg"
     },
     {
         "id": "pippali_powder",
         "name": "Pippali Powder",
         "scientific": "Piper longum Fruit Powder",
         "desc": "Piperaceae",
-        "image": "/images/plants/pippali_powder.jpg"
+        "image": "/images/plants/pippali powder.jpg.jpeg"
     },
     {
         "id": "pippalimoola",
         "name": "Pippalimoola",
         "scientific": "Piper longum (Root)",
         "desc": "Piperaceae",
-        "image": "/images/plants/pippalimoola.jpg"
+        "image": "/images/plants/pippali moola.jpg.jpeg"
     },
     {
         "id": "pishachika",
         "name": "Pishachika",
         "scientific": "Common Moss Variant",
         "desc": "Bryophyta",
-        "image": "/images/plants/pishachika.jpg"
+        "image": "/images/plants/pishachika.jpg.jpeg"
     },
     {
         "id": "pitasara",
         "name": "Pitasara",
         "scientific": "Pterocarpus marsupium Roxb.",
         "desc": "Fabaceae",
-        "image": "/images/plants/pitasara.jpg"
+        "image": "/images/plants/Pitasara.jpeg"
     },
     {
         "id": "prishniparni",
@@ -725,196 +725,196 @@ export const featuredPlants = [
         "name": "Priyangu",
         "scientific": "Callicarpa macrophylla Vahl",
         "desc": "Lamiaceae",
-        "image": "/images/plants/priyangu.jpg"
+        "image": "/images/plants/priyangu.jpeg"
     },
     {
         "id": "punarnava",
         "name": "Punarnava",
         "scientific": "Boerhavia diffusa L.",
         "desc": "Nyctaginaceae",
-        "image": "/images/plants/punarnava.jpg"
+        "image": "/images/plants/punarnava.jpg.jpeg"
     },
     {
         "id": "rakta_chandana",
         "name": "Rakta Chandana",
         "scientific": "Pterocarpus santalinus L.f.",
         "desc": "Fabaceae",
-        "image": "/images/plants/rakta_chandana.jpg"
+        "image": "/images/plants/rakta chandana.png"
     },
     {
         "id": "rasna",
         "name": "Rasna",
         "scientific": "Pluchea lanceolata (DC.) Oliv. & Hiern",
         "desc": "Asteraceae",
-        "image": "/images/plants/rasna.jpg"
+        "image": "/images/plants/rasna.jpg.jpeg"
     },
     {
         "id": "riddhi",
         "name": "Riddhi",
         "scientific": "Habenaria intermedia (Honed)",
         "desc": "Orchidaceae",
-        "image": "/images/plants/riddhi.jpg"
+        "image": "/images/plants/riddhi.jpg.jpeg"
     },
     {
         "id": "safed_musli",
         "name": "Safed Musli",
         "scientific": "Chlorophytum borivilianum Santapau & Fern.",
         "desc": "Asparagaceae",
-        "image": "/images/plants/safed_musli.jpg"
+        "image": "/images/plants/safed_musli.jpg.jpeg"
     },
     {
         "id": "sahachara",
         "name": "Sahachara",
         "scientific": "Barleria prionitis L.",
         "desc": "Acanthaceae",
-        "image": "/images/plants/sahachara.jpg"
+        "image": "/images/plants/sahachara.jpeg"
     },
     {
         "id": "saptaparna",
         "name": "Saptaparna",
         "scientific": "Alstonia scholaris (L.) R. Br.",
         "desc": "Apocynaceae",
-        "image": "/images/plants/saptaparna.jpg"
+        "image": "/images/plants/saptaparna.jpg.jpeg"
     },
     {
         "id": "sariva",
         "name": "Sariva",
         "scientific": "Hemidesmus indicus (L.) R. Br.",
         "desc": "Apocynaceae",
-        "image": "/images/plants/sariva.jpg"
+        "image": "/images/plants/sariva.jpg.jpeg"
     },
     {
         "id": "sariva_syrup",
         "name": "Sariva Syrup",
         "scientific": "Hemidesmus root extract",
         "desc": "Apocynaceae",
-        "image": "/images/plants/sariva_syrup.jpg"
+        "image": "/images/plants/sariva-syrup.jpeg"
     },
     {
         "id": "sarpagandha",
         "name": "Sarpagandha",
         "scientific": "Rauwolfia serpentina (L.) Benth. ex Kurz",
         "desc": "Apocynaceae",
-        "image": "/images/plants/sarpagandha.jpg"
+        "image": "/images/plants/sarpagandha.jpeg"
     },
     {
         "id": "shalamali",
         "name": "Shalamali",
         "scientific": "Bombax ceiba L.",
         "desc": "Malvaceae",
-        "image": "/images/plants/shalamali.jpg"
+        "image": "/images/plants/shalamali.jpeg"
     },
     {
         "id": "shalaparni",
         "name": "Shalaparni",
         "scientific": "Desmodium gangeticum (L.) DC.",
         "desc": "Fabaceae",
-        "image": "/images/plants/shalaparni.jpg"
+        "image": "/images/plants/shalaparni.jpg.jpeg"
     },
     {
         "id": "shallaki",
         "name": "Shallaki",
         "scientific": "Boswellia serrata Roxb.",
         "desc": "Burseraceae",
-        "image": "/images/plants/shallaki.jpg"
+        "image": "/images/plants/shallaki.jpeg"
     },
     {
         "id": "shankhapushpi",
         "name": "Shankhapushpi",
         "scientific": "Convolvulus pluricaulis Choisy",
         "desc": "Convolvulaceae",
-        "image": "/images/plants/shankhapushpi.jpg"
+        "image": "/images/plants/shankhapushpi.jpeg"
     },
     {
         "id": "shatapushpa",
         "name": "Shatapushpa",
         "scientific": "Anethum sowa Roxb. ex Flem.",
         "desc": "Apiaceae",
-        "image": "/images/plants/shatapushpa.jpg"
+        "image": "/images/plants/SHATAPUSHPA.jpg.jpeg"
     },
     {
         "id": "shatavari",
         "name": "Shatavari",
         "scientific": "Asparagus racemosus Willd.",
         "desc": "Asparagaceae",
-        "image": "/images/plants/shatavari.jpg"
+        "image": "/images/plants/shatavari.png"
     },
     {
         "id": "shathi",
         "name": "Shathi",
         "scientific": "Hedychium spicatum (Honed)",
         "desc": "Zingiberaceae",
-        "image": "/images/plants/shathi.jpg"
+        "image": "/images/plants/shathi.jpg.jpeg"
     },
     {
         "id": "shigru",
         "name": "Shigru",
         "scientific": "Moringa oleifera Lam.",
         "desc": "Moringaceae",
-        "image": "/images/plants/shigru.jpg"
+        "image": "/images/plants/shigru.jpeg"
     },
     {
         "id": "shilajit",
         "name": "Shilajit",
         "scientific": "Asphaltum punjabianum",
         "desc": "Mineral/Plant origin",
-        "image": "/images/plants/shilajit.jpg"
+        "image": "/images/plants/shilajit.jpeg"
     },
     {
         "id": "shirisha",
         "name": "Shirisha",
         "scientific": "Albizia lebbeck (L.) Benth.",
         "desc": "Fabaceae",
-        "image": "/images/plants/shirisha.jpg"
+        "image": "/images/plants/Shirisha.jpg.jpeg"
     },
     {
         "id": "shirisha_bark",
         "name": "Shirisha Bark",
         "scientific": "Albizia lebbeck (L.) Benth.",
         "desc": "Fabaceae",
-        "image": "/images/plants/shirisha_bark.jpg"
+        "image": "/images/plants/shirisha-bark.jpg.jpeg"
     },
     {
         "id": "shringavera",
         "name": "Shringavera",
         "scientific": "Common Ginger Variant",
         "desc": "Zingiberaceae",
-        "image": "/images/plants/shringavera.jpg"
+        "image": "/images/plants/shringavera.jpg.jpeg"
     },
     {
         "id": "shrivasa",
         "name": "Shrivasa",
         "scientific": "Pinus roxburghii Sarg.",
         "desc": "Pinaceae",
-        "image": "/images/plants/shrivasa.jpg"
+        "image": "/images/plants/shrivasa.jpg.jpeg"
     },
     {
         "id": "shyonaka",
         "name": "Shyonaka",
         "scientific": "Oroxylum indicum (L.) Kurz",
         "desc": "Bignoniaceae",
-        "image": "/images/plants/shyonaka.jpg"
+        "image": "/images/plants/shyonaka.jpeg"
     },
     {
         "id": "shyonaka_bark",
         "name": "Shyonaka Bark",
         "scientific": "Oroxylum indicum Bark",
         "desc": "Bignoniaceae",
-        "image": "/images/plants/shyonaka_bark.jpg"
+        "image": "/images/plants/shyonaka bark.jpg.jpeg"
     },
     {
         "id": "tagara",
         "name": "Tagara",
         "scientific": "Valeriana wallichii DC.",
         "desc": "Caprifoliaceae",
-        "image": "/images/plants/tagara.jpg"
+        "image": "/images/plants/tagara.jpeg"
     },
     {
         "id": "trivrit",
         "name": "Trivrit",
         "scientific": "Operculina turpethum (L.) Silva Manso",
         "desc": "Convolvulaceae",
-        "image": "/images/plants/trivrit.jpg"
+        "image": "/images/plants/trivrit.jpg.jpeg"
     },
     {
         "id": "tulsi",
@@ -935,21 +935,21 @@ export const featuredPlants = [
         "name": "Haridra",
         "scientific": "Curcuma longa L.",
         "desc": "Zingiberaceae",
-        "image": "/images/plants/turmeric.jpg"
+        "image": "/images/plants/turmeric.jpg.jpeg"
     },
     {
         "id": "twak",
         "name": "Twak",
         "scientific": "Cinnamomum zeylanicum Blume",
         "desc": "Lauraceae",
-        "image": "/images/plants/twak.jpg"
+        "image": "/images/plants/twak.jpg.jpeg"
     },
     {
         "id": "usheera",
         "name": "Usheera",
         "scientific": "Vetiveria zizanioides (L.) Nash",
         "desc": "Poaceae",
-        "image": "/images/plants/usheera.jpg"
+        "image": "/images/plants/Usheera.jpg.jpeg"
     },
     {
         "id": "ushira_root",
@@ -963,70 +963,70 @@ export const featuredPlants = [
         "name": "Vacha",
         "scientific": "Acorus calamus L.",
         "desc": "Acoraceae",
-        "image": "/images/plants/vacha.jpg"
+        "image": "/images/plants/vacha.jpg.jpeg"
     },
     {
         "id": "varuna",
         "name": "Varuna",
         "scientific": "Crateva nurvala Buch. Ham.",
         "desc": "Capparaceae",
-        "image": "/images/plants/varuna.jpg"
+        "image": "/images/plants/varuna.png"
     },
     {
         "id": "vasaka",
         "name": "Vasaka",
         "scientific": "Adhatoda vasica Nees (syn. Justicia adhatoda L.)",
         "desc": "Acanthaceae",
-        "image": "/images/plants/vasaka.jpg"
+        "image": "/images/plants/vasaka.jpg.jpeg"
     },
     {
         "id": "vatsanabha",
         "name": "Vatsanabha",
         "scientific": "Aconitum ferox Wall. ex Ser.",
         "desc": "Ranunculaceae",
-        "image": "/images/plants/vatsanabha.jpg"
+        "image": "/images/plants/vatsanabha.jpg.jpeg"
     },
     {
         "id": "vidanga",
         "name": "Vidanga",
         "scientific": "Embelia ribes Burm. f.",
         "desc": "Primulaceae",
-        "image": "/images/plants/vidanga.jpg"
+        "image": "/images/plants/vidanga.jpg.jpeg"
     },
     {
         "id": "vidari",
         "name": "Vidari",
         "scientific": "Pueraria tuberosa (Roxb. ex Willd.) DC.",
         "desc": "Fabaceae",
-        "image": "/images/plants/vidari.jpg"
+        "image": "/images/plants/vidari.jpg.jpeg"
     },
     {
         "id": "vijaysar",
         "name": "Vijaysar",
         "scientific": "Pterocarpus marsupium Roxb.",
         "desc": "Fabaceae",
-        "image": "/images/plants/vijaysar.jpg"
+        "image": "/images/plants/vijaysar.jpg.jpeg"
     },
     {
         "id": "vishala",
         "name": "Vishala",
         "scientific": "Citrullus colocynthis (Honed)",
         "desc": "Cucurbitaceae",
-        "image": "/images/plants/vishala.jpg"
+        "image": "/images/plants/vishala.jpg.jpeg"
     },
     {
         "id": "vridaru",
         "name": "Vridaru",
         "scientific": "Argyreia speciosa (Honed)",
         "desc": "Convolvulaceae",
-        "image": "/images/plants/vridaru.jpg"
+        "image": "/images/plants/vridaru.jpeg"
     },
     {
         "id": "vriddhi",
         "name": "Vriddhi",
         "scientific": "Habenaria edgeworthii (Honed)",
         "desc": "Orchidaceae",
-        "image": "/images/plants/vriddhi.jpg"
+        "image": "/images/plants/vriddhi.jpg.jpeg"
     },
     {
         "id": "vrikshaml",
@@ -1040,20 +1040,20 @@ export const featuredPlants = [
         "name": "Yashtimadhu",
         "scientific": "Glycyrrhiza glabra L.",
         "desc": "Fabaceae",
-        "image": "/images/plants/yashtimadhu.jpg"
+        "image": "/images/plants/yashtimadhu.jpg.jpeg"
     },
     {
         "id": "yavani",
         "name": "Yavani",
         "scientific": "Trachyspermum ammi (L.) Sprague",
         "desc": "Apiaceae",
-        "image": "/images/plants/yavani.jpg"
+        "image": "/images/plants/yavani.jpeg"
     },
     {
         "id": "money_plant",
         "name": "Money Plant",
         "scientific": "Epipremnum aureum",
         "desc": "Araceae",
-        "image": "/images/plants/money_plant.jpg"
+        "image": "/images/plants/Money Plant.jpg.jpeg"
     }
 ];

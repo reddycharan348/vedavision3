@@ -1,0 +1,119 @@
+{
+  "plant_id": "foxtail_millet",
+  "summary": {
+    "name": "Foxtail Millet",
+    "scientific_name": "Foxtail Millet species",
+    "family": "Poaceae",
+    "common_names": [
+      "Foxtail Millet"
+    ],
+    "key_uses": [
+      "Energy Provision",
+      "Digestive Health",
+      "Weight Management",
+      "General Nourishment"
+    ],
+    "dosha_effect": {
+      "balances": [
+        "Vata",
+        "Pitta"
+      ],
+      "may_aggravate": [
+        "Kapha (in excess)"
+      ]
+    },
+    "main_preparations": [
+      "Cooking",
+      "Roasting"
+    ],
+    "safety_level": "Generally Safe (Food Grade)",
+    "quick_rating": {
+      "traditional_strength": 8,
+      "research_support": 8,
+      "safety": 9,
+      "availability": 9
+    }
+  },
+  "details": {
+    "plant_profile": {
+      "history": "Foxtail Millet is a staple food crop cultivated globally, with profound references in traditional diets and Ayurvedic Ahara (dietary) regimens.",
+      "physical_characteristics": "Typical morphological features of the grass family. Cultivated widely for its nutritional seeds/grains.",
+      "distribution": "Cultivated globally in agricultural zones suitable for its growth."
+    },
+    "ayurvedic_properties": {
+      "rasa": [
+        "Madhura (Sweet)"
+      ],
+      "guna": [
+        "Guru (Heavy)",
+        "Snigdha (Unctuous)"
+      ],
+      "virya": "Moderate (varies by grain)",
+      "vipaka": "Madhura (Sweet) or Katu (Pungent)",
+      "dosha_modulation": "Primarily pacifies Vata and Pitta."
+    },
+    "therapeutic_actions": [
+      "Nourishing",
+      "Grounding",
+      "Strength-promoting"
+    ],
+    "medicinal_uses": {
+      "energy_provision": "Complex carbohydrates in Foxtail Millet provide sustained energy.",
+      "digestive_health": "Provides bulk to the stool and supports robust digestion when cooked properly.",
+      "weight_management": "Whole grain varieties help in promoting satiety and supporting healthy weight management."
+    },
+    "chemical_profile": {
+      "key_compounds": [
+        "Starch",
+        "Dietary Fiber"
+      ],
+      "phytochemicals": [
+        "Antioxidants",
+        "Phenolic compounds (in whole grains)"
+      ],
+      "nutritional_components": [
+        "B Vitamins",
+        "Iron",
+        "Magnesium",
+        "Zinc"
+      ]
+    },
+    "standardization": {
+      "api_reference": "Nutritional standards and food safety guidelines applicable to Foxtail Millet.",
+      "quality_markers": [
+        "Moisture Content",
+        "Foreign Matter Limits",
+        "Protein Content"
+      ]
+    }
+  },
+  "usage": {
+    "preparation_methods": {
+      "cooking": "Boil or pressure cook with appropriate amount of water.",
+      "roasting": "Dry roasting before cooking makes it lighter to digest (Laghu)."
+    },
+    "dosage": {
+      "adults": "1-2 servings per meal.",
+      "children": "0.5-1 serving, well-cooked.",
+      "elderly": "Moderate portions, well-cooked or as porridge."
+    }
+  },
+  "safety": {
+    "contraindications": [
+      "Refined versions should be limited by those managing blood sugar."
+    ],
+    "side_effects": [
+      "May cause heaviness if overconsumed."
+    ],
+    "drug_interactions": [
+      "No significant interactions when consumed as food."
+    ],
+    "toxicity_notes": "GRAS Status: Generally recognized as safe for food consumption."
+  },
+  "metadata": {
+    "source_system": "Dietary Guidelines & Ayurvedic Ahara",
+    "verification_status": "verified",
+    "last_updated": "2026-03-24",
+    "confidence_score": 0.98
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "plant_id": "scarlet_runner_beans",
+  "summary": {
+    "name": "Scarlet Runner Beans",
+    "scientific_name": "Scarlet Runner Beans species",
+    "family": "Fabaceae",
+    "common_names": [
+      "Scarlet Runner Beans"
+    ],
+    "key_uses": [
+      "Muscle Building",
+      "Digestive Health",
+      "Blood Sugar Regulation",
+      "Heart Health"
+    ],
+    "dosha_effect": {
+      "balances": [
+        "Kapha",
+        "Pitta"
+      ],
+      "may_aggravate": [
+        "Vata (if not cooked properly)"
+      ]
+    },
+    "main_preparations": [
+      "Soaking",
+      "Cooking"
+    ],
+    "safety_level": "Generally Safe (Food Grade)",
+    "quick_rating": {
+      "traditional_strength": 9,
+      "research_support": 9,
+      "safety": 9,
+      "availability": 9
+    }
+  },
+  "details": {
+    "plant_profile": {
+      "history": "Scarlet Runner Beans is a staple food crop cultivated globally, with profound references in traditional diets and Ayurvedic Ahara (dietary) regimens.",
+      "physical_characteristics": "Typical morphological features of the legume family. Cultivated widely for its nutritional seeds/grains.",
+      "distribution": "Cultivated globally in agricultural zones suitable for its growth."
+    },
+    "ayurvedic_properties": {
+      "rasa": [
+        "Madhura (Sweet)",
+        "Kashaya (Astringent)"
+      ],
+      "guna": [
+        "Ruksha (Dry)",
+        "Guru (Heavy)"
+      ],
+      "virya": "Shita (Cooling)",
+      "vipaka": "Madhura (Sweet) or Katu (Pungent)",
+      "dosha_modulation": "Primarily pacifies Kapha and Pitta."
+    },
+    "therapeutic_actions": [
+      "Nutritive",
+      "Astringent",
+      "Kapha-reducing (in general)"
+    ],
+    "medicinal_uses": {
+      "muscle_building": "High protein content in Scarlet Runner Beans supports tissue building and muscle repair.",
+      "digestive_health": "Rich in dietary fiber, promoting regular bowel movements and gut health.",
+      "metabolic_regulation": "Low glycemic index helps in managing blood sugar levels."
+    },
+    "chemical_profile": {
+      "key_compounds": [
+        "Proteins",
+        "Complex Carbohydrates"
+      ],
+      "phytochemicals": [
+        "Phytoestrogens",
+        "Saponins"
+      ],
+      "nutritional_components": [
+        "B Vitamins",
+        "Iron",
+        "Magnesium",
+        "Zinc"
+      ]
+    },
+    "standardization": {
+      "api_reference": "Nutritional standards and food safety guidelines applicable to Scarlet Runner Beans.",
+      "quality_markers": [
+        "Moisture Content",
+        "Foreign Matter Limits",
+        "Protein Content"
+      ]
+    }
+  },
+  "usage": {
+    "preparation_methods": {
+      "soaking": "Soak overnight to reduce phytates and improve digestibility.",
+      "cooking": "Boil thoroughly until soft. Often tempered (Tadka) with cumin, asafoetida, and ghee to reduce Vata aggravation."
+    },
+    "dosage": {
+      "adults": "1 small bowl (cooked) per meal.",
+      "children": "Half a bowl (cooked), well-mashed.",
+      "elderly": "Cooked thoroughly, preferably as a thin soup."
+    }
+  },
+  "safety": {
+    "contraindications": [
+      "Limit intake if prone to severe Vata disorders (bloating, gas) unless cooked with digestive spices."
+    ],
+    "side_effects": [
+      "Can cause flatulence if not soaked and cooked properly."
+    ],
+    "drug_interactions": [
+      "No significant interactions when consumed as food."
+    ],
+    "toxicity_notes": "GRAS Status: Generally recognized as safe for food consumption."
+  },
+  "metadata": {
+    "source_system": "Dietary Guidelines & Ayurvedic Ahara",
+    "verification_status": "verified",
+    "last_updated": "2026-03-24",
+    "confidence_score": 0.98
+  },
+  "image": "/images/pulses/Scarlet Runner Beans.jpeg"
+}

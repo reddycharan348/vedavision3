@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Camera, ArrowRight, Loader2, Sparkles, Upload, Search, Leaf, Shield, FlaskConical, Stethoscope, Mail, MapPin, Phone, X, Menu, BookOpen, MessageSquare, Download, Database, Layers } from "lucide-react";
+import { Camera, ArrowRight, Loader2, Sparkles, Upload, Search, Leaf, Shield, FlaskConical, Stethoscope, Mail, MapPin, Phone, X, Menu, BookOpen, MessageSquare, Download, Database, Layers, RefreshCw } from "lucide-react";
 import { useLanguage } from "./LanguageContext";
 import { featuredPlants } from "./data/plantsList";
 import { featuredCereals } from "./data/cerealsList";
@@ -33,6 +33,7 @@ export default function Home() {
     const [selectedLang, setSelectedLang] = useState(null);
     const [diagnosisResults, setDiagnosisResults] = useState(null);
     const [activeSection, setActiveSection] = useState("verify");
+    const [iotStatus, setIotStatus] = useState(null);
 
     // PWA Install State
     const [installPrompt, setInstallPrompt] = useState(null);
@@ -40,6 +41,7 @@ export default function Home() {
     const [isIOS, setIsIOS] = useState(false);
     const [showInstallGuide, setShowInstallGuide] = useState(false);
 
+    const [isIotAnalyzing, setIsIotAnalyzing] = useState(false);
     const t = (key) => {
         const langData = translations[language] || translations["English"];
         return langData[key] || translations["English"][key] || key;
@@ -72,6 +74,46 @@ export default function Home() {
         window.addEventListener('keydown', handleKeyDown);
         return () => window.removeEventListener('keydown', handleKeyDown);
     }, [isCameraOpen]);
+
+    useEffect(() => {
+        const pollIoT = async () => {
+            try {
+                const res = await fetch('/iot/status.json?t=' + Date.now());
+                if (res.ok) {
+                    const data = await res.ok ? await res.json() : null;
+                    if (data) setIotStatus(data);
+                }
+            } catch (e) {}
+        };
+        const interval = setInterval(pollIoT, 1500);
+        pollIoT();
+        return () => clearInterval(interval);
+    }, []);
+
+    const captureIotSpecimen = async () => {
+        if (!iotStatus || !iotStatus.imagePath) return;
+        
+        setIsIotAnalyzing(true);
+        try {
+            // Fetch the current image from the server
+            const imgRes = await fetch(iotStatus.imagePath + '?t=' + Date.now());
+            const blob = await imgRes.blob();
+            
+            // Convert to base64
+            const reader = new FileReader();
+            reader.readAsDataURL(blob);
+            reader.onloadend = async () => {
+                const base64 = reader.result;
+                setPreview(base64);
+                // Trigger analysis
+                await triggerSearch(null, base64);
+                setIsIotAnalyzing(false);
+            };
+        } catch (err) {
+            console.error("Iot Capture Error:", err);
+            setIsIotAnalyzing(false);
+        }
+    };
 
     useEffect(() => {
         // Detect iOS
@@ -574,6 +616,70 @@ export default function Home() {
                                     </motion.div>
                                 )}
                             </div>
+
+                            {/* IoT Live Monitor Card */}
+                            <div className="glass-card iot-monitor-card mt-6">
+                                <div className="flex justify-between items-center mb-4">
+                                    <div className="flex items-center gap-2">
+                                        <div className={`status-dot ${iotStatus ? 'active' : ''}`} />
+                                        <h2 className="card-title">{t("iotTitle")}</h2>
+                                    </div>
+                                    {iotStatus && <span className="text-xs opacity-40">{t('iotLastSeen')}: {new Date(iotStatus.lastUpdated).toLocaleTimeString()}</span>}
+                                </div>
+                                
+                                <div className="iot-display">
+                                    {iotStatus ? (
+                                        <div className="iot-content flex flex-col gap-4">
+                                            <div className="iot-preview-large relative">
+                                                <img 
+                                                    src={iotStatus.imagePath + '?t=' + new Date(iotStatus.lastUpdated).getTime()} 
+                                                    alt="IoT Live Feed" 
+                                                    className="iot-live-img w-full h-auto rounded-xl border border-white/5" 
+                                                />
+                                                <div className="absolute top-4 left-4 bg-red-600/80 text-white text-[10px] font-bold px-2 py-1 rounded flex items-center gap-1.5 animate-pulse">
+                                                    <div className="w-1.5 h-1.5 bg-white rounded-full"></div> LIVE FEED
+                                                </div>
+                                                
+                                                <div className="iot-overlay-action absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity bg-black/40 rounded-xl">
+                                                    <button 
+                                                        onClick={captureIotSpecimen}
+                                                        disabled={isIotAnalyzing}
+                                                        className="iot-capture-btn bg-gold text-white px-6 py-3 rounded-full font-bold flex items-center gap-2 transform scale-90 hover:scale-100 transition-transform shadow-2xl"
+                                                    >
+                                                        {isIotAnalyzing ? <Loader2 className="spin" /> : <Camera size={20} />} 
+                                                        {isIotAnalyzing ? "Analyzing..." : "Capture & Analyze"}
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                            <div className="iot-status-info flex justify-between items-center p-4 bg-white/5 rounded-xl border border-white/5">
+                                                <div>
+                                                    <p className="text-[10px] uppercase tracking-widest text-gold mb-1">{t('iotScanning')}</p>
+                                                    <h3 className="text-white font-bold">
+                                                        {iotStatus.result?.identification?.name || "Ready to Scan"}
+                                                    </h3>
+                                                </div>
+                                                {iotStatus.result && (
+                                                    <button 
+                                                        onClick={() => {
+                                                            localStorage.setItem("veda_plant_data", JSON.stringify(iotStatus.result));
+                                                            router.push("/results");
+                                                        }}
+                                                        className="text-xs text-white/60 hover:text-white flex items-center gap-1 transition-colors"
+                                                    >
+                                                        Full Profile <ArrowRight size={14} />
+                                                    </button>
+                                                )}
+                                            </div>
+                                        </div>
+                                    ) : (
+                                        <div className="iot-empty flex flex-col items-center py-6 opacity-40">
+                                            <Database size={32} className="mb-2" />
+                                            <p className="text-sm">{t('iotStatus')}</p>
+                                        </div>
+                                    )}
+                                </div>
+                            </div>
                         </div>
                     </motion.div>
                 </section>
@@ -681,12 +787,20 @@ export default function Home() {
                                         ))}
                                     </div>
                                     
-                                    <button 
-                                        className="mt-10 opacity-50 hover:opacity-100 transition-opacity flex items-center gap-2 text-sm mx-auto"
-                                        onClick={() => setDiagnosisResults(null)}
+                                    <motion.button 
+                                        whileHover={{ scale: 1.05 }}
+                                        whileTap={{ scale: 0.95 }}
+                                        className="diagnosis-reset-btn mt-12 mb-4 mx-auto"
+                                        onClick={() => {
+                                            setDiagnosisResults(null);
+                                            setChatQuery("");
+                                        }}
                                     >
-                                        <X size={14} /> Reset Search
-                                    </button>
+                                        <div className="reset-icon-wrap">
+                                            <RefreshCw size={14} className="reset-icon" />
+                                        </div>
+                                        <span>Discover New Wisdom</span>
+                                    </motion.button>
                                 </motion.div>
                             )}
                         </div>

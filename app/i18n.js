@@ -83,7 +83,13 @@ export const translations = {
     audioPreparation: "General preparation",
     resConfidence: "Confidence",
     resNotVerified: "UNVERIFIED ANALYSIS",
-    resDisclaimer: "This specimen was identified by AI but is not yet in our traditional Ayurvedic manuscripts. Use with caution."
+    resDisclaimer: "This specimen was identified by AI but is not yet in our traditional Ayurvedic manuscripts. Use with caution.",
+    iotTitle: "IoT Live Specimen Monitor",
+    iotStatus: "Waiting for hardware...",
+    iotScanning: "Processing IoT Feed...",
+    iotDetected: "New Specimen Detected!",
+    iotView: "View Live Analysis",
+    iotLastSeen: "Last seen"
   },
   Telugu: {
     titleVerify: "తక్షణమే నిర్ధారించండి",
@@ -163,7 +169,13 @@ export const translations = {
     audioPreparation: "సాధారణ తయారీ",
     resConfidence: "విశ్వసనీయత",
     resNotVerified: "ధృవీకరించబడని విశ్లేషణ",
-    resDisclaimer: "ఈ నమూనా AI ద్వారా గుర్తించబడింది కానీ మా ప్రాచీన ఆయుర్వేద గ్రంథాలలో ఇంకా లేదు. జాగ్రత్తగా ఉండండి."
+    resDisclaimer: "ఈ నమూనా AI ద్వారా గుర్తించబడింది కానీ మా ప్రాచీన ఆయుర్వేద గ్రంథాలలో ఇంకా లేదు. జాగ్రత్తగా ఉండండి.",
+    iotTitle: "IoT లైవ్ స్పెసిమెన్ మానిటర్",
+    iotStatus: "హార్డ్‌వేర్ కోసం వేచి ఉంది...",
+    iotScanning: "IoT ఫీడ్‌ని విశ్లేషిస్తోంది...",
+    iotDetected: "కొత్త నమూనా కనుగొనబడింది!",
+    iotView: "లైవ్ విశ్లేషణను చూడండి",
+    iotLastSeen: "చివరిగా చూసింది"
   },
   Hindi: {
     titleVerify: "तुरंत सत्यापित करें",
