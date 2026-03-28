@@ -37,3 +37,4 @@ function updateList(folderName, arrayName, outputFile) {
 
 updateList('cereals', 'featuredCereals', 'cerealsList.js');
 updateList('pulses', 'featuredPulses', 'pulsesList.js');
+updateList('plants', 'featuredPlants', 'plantsList.js');
