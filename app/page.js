@@ -50,8 +50,7 @@ const LibraryCategory = ({ title, items, initialLimit, showAll, setShowAll, type
                                 alt={item.name}
                                 style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', zIndex: 1 }}
                                 onError={(e) => {
-                                    e.target.src = '/images/placeholder.jpg'; // fallback instead of hiding completely
-                                    e.target.style.opacity = '0.5';
+                                    e.target.style.display = 'none';
                                 }}
                             />
                             <Leaf size={32} style={{ color: 'rgba(255,255,255,0.4)', position: 'relative', zIndex: 0 }} />
