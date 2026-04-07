@@ -6,7 +6,7 @@
 const char *ssid = "Charan";
 const char *password = "8897499543";
 // URL of your VedaVision app (use your local IP if running locally)
-const char *serverUrl = "http://172.23.184.8:3000/api/esp32/upload";
+const char *serverUrl = "http://10.154.181.8:3000/api/esp32/upload";
 
 // Camera Pins for AI-THINKER ESP32-CAM
 #define PWDN_GPIO_NUM 32
@@ -28,8 +28,7 @@ const char *serverUrl = "http://172.23.184.8:3000/api/esp32/upload";
 
 void setup() {
   Serial.begin(115200);
-
-  camera_config_t config;
+  x camera_config_t config;
   config.ledc_channel = LEDC_CHANNEL_0;
   config.ledc_timer = LEDC_TIMER_0;
   config.pin_d0 = Y2_GPIO_NUM;
@@ -97,8 +96,10 @@ void loop() {
   int httpResponseCode = http.POST(fb->buf, fb->len);
 
   if (httpResponseCode > 0) {
-    // String response = http.getString();
-    // Serial.println(httpResponseCode);
+    String response = http.getString();
+    Serial.print("Success Code: ");
+    Serial.println(httpResponseCode);
+    Serial.println("Response: " + response);
   } else {
     Serial.print("Error on sending POST: ");
     Serial.println(httpResponseCode);

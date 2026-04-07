@@ -62,7 +62,8 @@ export async function POST(req) {
                 process.env.GEMINI_API_KEY_6
             ].filter(Boolean);
 
-            const prompt = `Identify the medicinal plant in this image. 
+            const prompt = `Identify the medicinal plant, cereal, or pulse in this image. 
+            If the image primarily contains a human, animal, or something else entirely unrelated to plants, return "Not a plant" for the name.
             Return the result in JSON format:
             {
               "name": "Common Name or Scientific Name",
@@ -112,6 +113,10 @@ export async function POST(req) {
 
         if (!plantIdentifier) {
             return new Response(JSON.stringify({ error: "Could not identify specimen." }), { status: 400 });
+        }
+
+        if (plantIdentifier.toLowerCase() === "not a plant" || plantIdentifier.toLowerCase().includes("human")) {
+            return new Response(JSON.stringify({ error: "No plant, cereal, or pulse detected. Please ensure the subject is clearly visible in the image." }), { status: 400 });
         }
 
         // Step 2: Search the local app/data/{plants,cereals,pulses}/ folders for a matching JSON file
